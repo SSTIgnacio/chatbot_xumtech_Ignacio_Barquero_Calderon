@@ -1,0 +1,52 @@
+[
+  {
+    "id": "saludo",
+    "keywords": ["hola", "buenos días", "buenas tardes"],
+    "answer": "¡Hola! Soy el bot de XUMTECH. ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "id": "despedida",
+    "keywords": ["adiós", "hasta luego", "chao"],
+    "answer": "¡Hasta pronto! Que tengas un excelente día."
+  },
+  {
+    "id": "quienes_son",
+    "keywords": ["quiénes son", "xumtech", "empresa"],
+    "answer": "Somos XUMTECH, especialistas en soluciones cloud y transformación digital para líderes del sector financiero, salud y retail."
+  },
+  {
+    "id": "servicios",
+    "keywords": ["servicios", "ofrecen", "hacen"],
+    "answer": "Diseñamos e implementamos plataformas que optimizan la experiencia de usuario y aceleran el negocio, integrando tecnologías como Oracle, Salesforce y AWS."
+  },
+  {
+    "id": "ubicacion",
+    "keywords": ["dónde están", "ubicación", "oficinas"],
+    "answer": "Nuestra sede principal está en San José, Costa Rica, pero operamos con modalidad híbrida/remota."
+  },
+  {
+    "id": "contacto",
+    "keywords": ["contacto", "teléfono", "email"],
+    "answer": "Puedes contactarnos a través de info@xum-tech.com o al teléfono (+506) 2505-5458."
+  },
+  {
+    "id": "horario",
+    "keywords": ["horario", "atención"],
+    "answer": "Nuestro horario de atención es de Lunes a Viernes, de 8:00 AM a 5:00 PM."
+  },
+  {
+    "id": "tecnologias",
+    "keywords": ["tecnologías", "stack", "plataformas"],
+    "answer": "Trabajamos con un amplio stack que incluye Oracle (OIC, VB Studio, OCI), Salesforce, AWS, Node.js, React, Python, entre otros."
+  },
+  {
+    "id": "agradecimiento",
+    "keywords": ["gracias", "muchas gracias"],
+    "answer": "¡De nada! Es un placer ayudarte."
+  },
+  {
+    "id": "ayuda",
+    "keywords": ["ayuda", "comandos", "puedes hacer"],
+    "answer": "Puedes preguntarme sobre nuestros servicios, tecnologías, ubicación o cómo contactarnos. ¡Inténtalo!"
+  }
+]
