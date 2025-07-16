@@ -10,12 +10,10 @@ const processMessage = async (userMessage) => {
     return 'Por favor, escribe una pregunta.';
   }
 
-  // **CORRECCIÓN DE SEGURIDAD FINAL:**
   // 1. Convertir a minúsculas.
   let cleanMessage = userMessage.toLowerCase();
   
   // 2. Sanitización agresiva: Eliminar todo lo que NO sea una letra, un número o un espacio en blanco.
-  // Esto convierte '<script>alert("hola")</script>' en 'script alert hola script'.
   cleanMessage = cleanMessage.replace(/[^a-z0-9\s]/g, '');
 
   // Obtener la base de conocimiento.
